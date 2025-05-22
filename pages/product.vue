@@ -19,7 +19,7 @@
             :src="img.src"
             :alt="img.alt"
             class="h-16 w-16 object-cover rounded-md cursor-pointer"
-            @click="product.images.unshift(product.images.splice(product.images.indexOf(img), 1)[0])"
+            @click="product.images.unshift(product.images.splice(product.images.indexOf(img), 1)[0])" 
           />
         </div>
       </div>
